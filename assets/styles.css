@@ -62,8 +62,11 @@ footer ul li a {
 	text-decoration: none;
 }
 
-@media (max-width: 980px) {
-    .main {
+@media (max-width: 1024px) {
+	body {
+		padding: 0;
+	}
+    main {
 		padding: 0px;
         width: 100%;
         margin-left: 0;
